@@ -3,6 +3,71 @@ import Image from "next/image";
 export default function Home() {
   return (
 <main className="flex min-h-screen flex-col items-center justify-center bg-gray-100 space-y-8 p-6  space-x-6">
+
+{/* sbc button */}
+<button className="relative w-[90vw] max-w-[900px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
+  {/* Outer Layer */}
+  <div className="absolute inset-0 bg-amber-400 rounded-full group-hover:bg-amber-300"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute inset-x-[3%] inset-y-[6%] bg-white rounded-full"></div>
+
+  {/* Inner Layer */}
+  <div className="absolute inset-x-[5%] inset-y-[10%] bg-sky-500 rounded-full group-hover:bg-sky-600"></div>
+
+  {/* Text Content */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-2xl text-center px-2">
+    <span>What is SBC ? </span>
+  </div>
+</button>
+
+
+{/* video button */}
+
+<button className="relative w-[90vw] max-w-[900px] aspect-[1/1] rounded-[222px] focus:outline-none active:scale-95 transition group overflow-hidden">
+  {/* Outer Layer */}
+  <div className="absolute inset-0 bg-white rounded-[222px] group-hover:bg-gray-100"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute top-[3%] left-[2.5%] w-[95%] h-[94%] bg-sky-500 rounded-[196px] group-hover:bg-sky-600 transition" />
+
+  {/* Large Image */}
+  <img
+    src="https://placehold.co/1184x1131"
+    alt="Main visual"
+    className="absolute top-[9%] left-[8%] w-[84%] h-[82%] object-cover rounded-[196px]"
+  />
+
+  {/* Inner Image */}
+  <img
+    src="https://placehold.co/532x532"
+    alt="Overlay icon"
+    className="absolute top-[31%] left-[31%] w-[38%] h-[38%] object-contain"
+  />
+</button>
+
+
+{/* Are you ready button? */}
+<button className="relative w-[90vw] max-w-[588px] h-96 rounded-3xl focus:outline-none active:scale-95 transition group">
+  {/* Outer layer */}
+  <div className="absolute inset-0 bg-sky-200 rounded-3xl group-hover:bg-sky-300"></div>
+
+  {/* Inner layer */}
+  <div className="absolute inset-[2%] m-[12px] bg-sky-500 rounded-3xl group-hover:bg-sky-600"></div>
+
+  {/* Centered Content */}
+  <div className="absolute inset-0 flex flex-col items-center justify-center text-white font-semibold text-xl md:text-4xl text-center gap-8 px-4">
+    <span>Time to test your <br /> knowledge about Cholera.</span>
+    <span>Answer these multiple <br /> choice questions.</span>
+  </div>
+</button>
+
+
+
+
+
+
+
   {/* social protection */}
   <button className="relative group focus:outline-none active:scale-95 transition w-[80vw] max-w-96 aspect-square m-4">
     {/* Outer circle */}
@@ -63,37 +128,10 @@ export default function Home() {
 </button>
 
 
-{/* are you ready button? */}
-<button className="relative w-[90vw] max-w-[588px] h-96 rounded-3xl focus:outline-none active:scale-95 transition group">
-  {/* Outer layer */}
-  <div className="absolute inset-0 bg-sky-200 rounded-3xl group-hover:bg-sky-300"></div>
-
-  {/* Inner layer */}
-  <div className="absolute inset-[2%] m-[12px] bg-sky-500 rounded-3xl group-hover:bg-sky-600"></div>
-
-  {/* Centered Content */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl md:text-4xl text-center">
-    <span>Are you ready ?</span>
-  </div>
-</button>
 
 
-{/* sbc button */}
-<button className="relative w-[90vw] max-w-[900px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
-  {/* Outer Layer */}
-  <div className="absolute inset-0 bg-amber-400 rounded-full group-hover:bg-amber-300"></div>
 
-  {/* Middle Layer */}
-  <div className="absolute inset-x-[3%] inset-y-[6%] bg-white rounded-full"></div>
 
-  {/* Inner Layer */}
-  <div className="absolute inset-x-[5%] inset-y-[10%] bg-sky-500 rounded-full group-hover:bg-sky-600"></div>
-
-  {/* Text Content */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-2xl text-center px-2">
-    <span>What is SBC ? </span>
-  </div>
-</button>
 
 
 {/* learn more about sbc button */}
@@ -113,6 +151,9 @@ export default function Home() {
     <span>Learn more about sbc</span>
   </div>
 </button>
+
+
+
 
 
 {/* pub button */}
@@ -172,6 +213,28 @@ export default function Home() {
     <span>Click Me</span>
   </div>
 </button>
+
+
+{/* music button */}
+<button className="relative w-[90vw] max-w-[632px] aspect-[3/4] rounded-[156px] focus:outline-none active:scale-95 transition group overflow-hidden">
+  {/* Outer Layer */}
+  <div className="absolute inset-0 bg-white rounded-[156px] group-hover:bg-gray-100"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute top-[2%] left-[3%] w-[94%] h-[71%] bg-sky-500 rounded-[147px] group-hover:bg-sky-600"></div>
+
+  {/* Icon */}
+  <div className="absolute top-[23%] left-[15%] w-64 h-64 rounded-md flex justify-center items-center">
+    {/* Example SVG */}
+    
+  </div>
+
+  {/* Text */}
+  <div className="absolute bottom-[7%] left-1/2 -translate-x-1/2 text-center text-sky-500 text-lg sm:text-2xl md:text-3xl font-bold font-sans">
+    Outbreak of<br />Cholera
+  </div>
+</button>
+
 
 
 
