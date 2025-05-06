@@ -78,6 +78,50 @@ export default function Home() {
 </button>
 
 
+{/* sbc button */}
+<button className="relative w-[90vw] max-w-[900px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
+  {/* Outer Layer */}
+  <div className="absolute inset-0 bg-amber-400 rounded-full group-hover:bg-amber-300"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute inset-x-[3%] inset-y-[6%] bg-white rounded-full"></div>
+
+  {/* Inner Layer */}
+  <div className="absolute inset-x-[5%] inset-y-[10%] bg-sky-500 rounded-full group-hover:bg-sky-600"></div>
+
+  {/* Text Content */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-2xl text-center px-2">
+    <span>What is SBC ? </span>
+  </div>
+</button>
+
+
+{/* learn more about sbc button */}
+
+<button className="relative w-[90vw] max-w-[900px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
+  {/* Outer Layer */}
+  <div className="absolute inset-0 bg-sky-500 rounded-full group-hover:bg-sky-400"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute inset-x-[2.7%] inset-y-[10%] bg-white rounded-full"></div>
+
+  {/* Inner Layer */}
+  <div className="absolute inset-x-[3.6%] inset-y-[14%] bg-slate-600 rounded-full group-hover:bg-slate-700"></div>
+
+  {/* Optional Content */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-2xl text-center px-4">
+    <span>Learn more about sbc</span>
+  </div>
+</button>
+
+
+
+
+
+
+
+
+
 
 
 
