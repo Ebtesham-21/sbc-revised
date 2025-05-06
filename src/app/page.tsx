@@ -115,6 +115,65 @@ export default function Home() {
 </button>
 
 
+{/* pub button */}
+
+<button className="relative w-[90vw] max-w-[655px] aspect-square focus:outline-none active:scale-95 transition group">
+  {/* Bottom Layer */}
+  <div className="absolute top-1/2 left-1/2 w-96 h-[475px] -translate-x-1/2 -translate-y-1/2 origin-center rotate-[-44.75deg] bg-white rounded-[45px] group-hover:bg-gray-100"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute top-1/2 left-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 origin-center rotate-[-44.75deg] bg-slate-600 rounded-[43px] group-hover:bg-slate-500"></div>
+
+  {/* Top Layer */}
+  <div className="absolute top-1/2 left-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 origin-center rotate-[-44.75deg] bg-sky-500 rounded-[38px] group-hover:bg-sky-600"></div>
+
+  {/* Optional Content */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl text-center pointer-events-none">
+    Click Me
+  </div>
+</button>
+
+
+{/* quiz button */}
+
+<button className="relative w-[90vw] max-w-[600px] aspect-[3/1] rounded-[251.5px] focus:outline-none active:scale-95 transition group">
+  {/* Outer Layer */}
+  <div className="absolute inset-0 bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute inset-x-[2.6%] inset-y-[3%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
+
+  {/* Inner Layer */}
+  <div className="absolute inset-x-[5.6%] inset-y-[8%] bg-sky-500 rounded-[251.5px] group-hover:bg-sky-600"></div>
+
+  {/* Text Content */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-lg md:text-2xl lg:text-3xl text-center px-4">
+  <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-35 md:w-35" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+      </svg>
+    <span>Quiz</span>
+   
+  </div>
+</button>
+
+
+
+{/* folder button */}
+
+<button className="relative w-[90vw] max-w-[812px] aspect-[4/3] focus:outline-none active:scale-95 transition group">
+  {/* Back Layer */}
+  <div className="absolute inset-0 bg-blue-800 outline outline-1 outline-offset-[-0.5px] outline-slate-500 group-hover:bg-blue-900 rounded-xl"></div>
+
+  {/* Front Layer */}
+  <div className="absolute inset-y-[3.5%] inset-x-0 bg-sky-500 outline outline-1 outline-offset-[-0.5px] outline-slate-500 group-hover:bg-sky-600 rounded-xl"></div>
+
+  {/* Optional Content */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl text-center px-4">
+    <span>Click Me</span>
+  </div>
+</button>
+
+
 
 
 
