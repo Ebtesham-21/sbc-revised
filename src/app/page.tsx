@@ -751,9 +751,10 @@ export default function Home() {
 
 {/* Document Files Button */}
 <button className="relative w-[90vw] max-w-[655px] h-[655px] focus:outline-none active:scale-95 transition group overflow-hidden">
-  {/* White Layer (Bottom) - slightly shifted to top-right */}
-  <div className="absolute top-1/2 left-1/2 w-[440px] h-[460px] -translate-x-[50%] -translate-y-[52%] rotate-[-44.75deg] origin-center bg-white rounded-[45px] z-10" />
+  
 
+  {/* Slate Layer (Middle) */}
+  <div className="absolute top-1/2 left-1/2 w-[440px] h-[440px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#ffffff] rounded-[43px] z-10" />
   {/* Slate Layer (Middle) */}
   <div className="absolute top-1/2 left-1/2 w-[420px] h-[420px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#50716C] rounded-[43px] z-20" />
 
