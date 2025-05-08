@@ -707,21 +707,25 @@ export default function Home() {
 </button>
 
 
-{/* document files */}
-<button className="relative w-[90vw] max-w-[655px] h-[655px] focus:outline-none active:scale-95 transition group">
-  {/* White Layer */}
-  <div className="absolute w-96 h-[475.62px] top-[317.45px] left-0 rotate-[-44.75deg] origin-top-left bg-white rounded-[45px]" />
+{/* Document Files Button */}
+<button className="relative w-[90vw] max-w-[655px] h-[655px] focus:outline-none active:scale-95 transition group overflow-hidden">
+  {/* White Layer (Bottom) */}
+  <div className="absolute top-1/2 left-1/2 w-[440px] h-[440px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-white rounded-[43px] z-10" />
 
-  {/* Slate Layer */}
-  <div className="absolute w-96 h-96 top-[319.45px] left-[28px] rotate-[-44.75deg] origin-top-left bg-[#50716C] rounded-[43px]" />
+  {/* Slate Layer (Middle) */}
+  <div className="absolute top-1/2 left-1/2 w-[420px] h-[420px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#50716C] rounded-[43px] z-20" />
 
-  {/* Sky Layer */}
-  <div className="absolute w-96 h-96 top-[320.18px] left-[55.15px] rotate-[-44.75deg] origin-top-left bg-sky-500 rounded-[38px] group-hover:bg-sky-600" />
+  {/* Sky Layer (Top) */}
+  <div className="absolute top-1/2 left-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-sky-500 rounded-[38px] z-30 group-hover:bg-sky-600" />
 
-  {/* Optional Content (centered) */}
-  <div className="absolute inset-0 flex items-center justify-center">
-    <span className="text-white text-xl font-semibold">Click Me</span>
+  {/* Centered Content */}
+  <div className="absolute inset-0 flex items-center justify-center z-40">
+  <div className="flex flex-row items-center justify-center gap-x-4 text-white">
+    
+    <span className="text-xl font-semibold text-center">Click Me</span>
   </div>
+</div>
+
 </button>
 
 
@@ -751,10 +755,9 @@ export default function Home() {
 
 {/* Document Files Button */}
 <button className="relative w-[90vw] max-w-[655px] h-[655px] focus:outline-none active:scale-95 transition group overflow-hidden">
-  
+  {/* White Layer (Bottom) */}
+  <div className="absolute top-1/2 left-1/2 w-[440px] h-[440px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-white rounded-[43px] z-10" />
 
-  {/* Slate Layer (Middle) */}
-  <div className="absolute top-1/2 left-1/2 w-[440px] h-[440px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#ffffff] rounded-[43px] z-10" />
   {/* Slate Layer (Middle) */}
   <div className="absolute top-1/2 left-1/2 w-[420px] h-[420px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#50716C] rounded-[43px] z-20" />
 
@@ -763,10 +766,16 @@ export default function Home() {
 
   {/* Centered Content */}
   <div className="absolute inset-0 flex items-center justify-center z-40">
-    <span className="text-white text-xl font-semibold text-center">Click Me 2</span>
+  <div className="flex flex-row items-center justify-center gap-x-4 text-white">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+    </svg>
+    <span className="text-xl font-semibold text-center">Document Files</span>
   </div>
-  
+</div>
+
 </button>
+
 
 
 
