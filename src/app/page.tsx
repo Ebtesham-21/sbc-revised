@@ -596,12 +596,114 @@ export default function Home() {
 
   {/* Text */}
   <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl md:text-3xl text-center">
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-40 md:w-40" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M9 17.5a2.5 2.5 0 1 1-2-2.45V6.09l10-2.18v10.14a2.5 2.5 0 1 1-2 2.45 2.5 2.5 0 0 1 2-2.45V6.91l-6 1.31v7.83a2.5 2.5 0 1 1-2 2.45z"/>
-  </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-40 md:w-40" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M9 17.5a2.5 2.5 0 1 1-2-2.45V6.09l10-2.18v10.14a2.5 2.5 0 1 1-2 2.45 2.5 2.5 0 0 1 2-2.45V6.91l-6 1.31v7.83a2.5 2.5 0 1 1-2 2.45z"/>
+    </svg>
 
     <span>Audio Files</span>
   </div>
+</button>
+
+
+{/* Animation  Files */}
+ 
+<button className="relative w-[90vw] max-w-[1090px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
+  {/* Outer layer */}
+  <div className="absolute inset-0 bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
+
+  {/* Middle layer */}
+  <div className="absolute inset-[8%] bg-white rounded-[203px]"></div>
+
+  {/* Inner layer */}
+  <div className="absolute inset-[12%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
+
+  {/* Text */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl md:text-3xl text-center">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-40 md:w-40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 7h2l2-3h10l2 3h2a1 1 0 011 1v11a1 1 0 01-1 1H3a1 1 0 01-1-1V8a1 1 0 011-1z" />
+      <circle cx="12" cy="13" r="4" stroke="currentColor" strokeWidth="2" />
+    </svg>
+
+
+    <span>Animation</span>
+  </div>
+</button>
+
+
+
+
+{/* Additional Videos */}
+ 
+<button className="relative w-[90vw] max-w-[1090px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
+  {/* Outer layer */}
+  <div className="absolute inset-0 bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
+
+  {/* Middle layer */}
+  <div className="absolute inset-[8%] bg-white rounded-[203px]"></div>
+
+  {/* Inner layer */}
+  <div className="absolute inset-[12%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
+
+  {/* Text */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl md:text-3xl text-center">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-40 md:w-40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 2v6h6" />
+      <polygon points="10,10 16,13 10,16 10,10" fill="currentColor" />
+    </svg>
+
+
+
+    <span>Additional Videos</span>
+  </div>
+</button>
+
+
+{/* Additional Resources button */}
+
+<button className="relative w-[90vw] max-w-[600px] aspect-[3/1] rounded-[251.5px] focus:outline-none active:scale-95 transition group">
+  {/* Outer Layer */}
+  <div className="absolute inset-0 bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute inset-x-[2.6%] inset-y-[3%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
+
+  {/* Inner Layer */}
+  <div className="absolute inset-x-[5.6%] inset-y-[8%] bg-sky-500 rounded-[251.5px] group-hover:bg-sky-600"></div>
+
+  {/* Text Content */}
+  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-lg md:text-3xl lg:text-4xl text-center px-4">
+  <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-30 md:w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+      </svg>
+    <span>Additional <br /> Resources</span>
+   
+  </div>
+</button>
+
+
+{/* Add video button */}
+
+<button className="relative w-[90vw] max-w-[900px] aspect-[1/1] rounded-[100px] focus:outline-none active:scale-95 transition group overflow-hidden">
+  {/* Outer Layer */}
+  <div className="absolute inset-0 bg-white rounded-[222px] group-hover:bg-gray-100"></div>
+
+  {/* Middle Layer */}
+  <div className="absolute top-[3%] left-[2.5%] w-[95%] h-[94%] bg-sky-500 rounded-[196px] group-hover:bg-sky-600 transition" />
+
+  {/* Large Image */}
+  <img
+    src="https://placehold.co/1184x1131"
+    alt="Main visual"
+    className="absolute top-[9%] left-[8%] w-[84%] h-[82%] object-cover rounded-[196px]"
+  />
+
+  {/* Inner Image */}
+  <img
+    src="https://placehold.co/532x532"
+    alt="Overlay icon"
+    className="absolute top-[31%] left-[31%] w-[38%] h-[38%] object-contain"
+  />
 </button>
 
 
