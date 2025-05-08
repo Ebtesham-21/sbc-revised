@@ -707,6 +707,23 @@ export default function Home() {
 </button>
 
 
+{/* document files */}
+<button className="relative w-[90vw] max-w-[655px] h-[655px] focus:outline-none active:scale-95 transition group">
+  {/* White Layer */}
+  <div className="absolute w-96 h-[475.62px] top-[317.45px] left-0 rotate-[-44.75deg] origin-top-left bg-white rounded-[45px]" />
+
+  {/* Slate Layer */}
+  <div className="absolute w-96 h-96 top-[319.45px] left-[28px] rotate-[-44.75deg] origin-top-left bg-[#50716C] rounded-[43px]" />
+
+  {/* Sky Layer */}
+  <div className="absolute w-96 h-96 top-[320.18px] left-[55.15px] rotate-[-44.75deg] origin-top-left bg-sky-500 rounded-[38px] group-hover:bg-sky-600" />
+
+  {/* Optional Content (centered) */}
+  <div className="absolute inset-0 flex items-center justify-center">
+    <span className="text-white text-xl font-semibold">Click Me</span>
+  </div>
+</button>
+
 
 
 
@@ -732,26 +749,35 @@ export default function Home() {
 </button>
 
 
+{/* Document Files Button */}
+<button className="relative w-[90vw] max-w-[655px] h-[655px] focus:outline-none active:scale-95 transition group overflow-hidden">
+  {/* White Layer (Bottom) - slightly shifted to top-right */}
+  <div className="absolute top-1/2 left-1/2 w-[440px] h-[460px] -translate-x-[50%] -translate-y-[52%] rotate-[-44.75deg] origin-center bg-white rounded-[45px] z-10" />
 
+  {/* Slate Layer (Middle) */}
+  <div className="absolute top-1/2 left-1/2 w-[420px] h-[420px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#50716C] rounded-[43px] z-20" />
 
+  {/* Sky Layer (Top) */}
+  <div className="absolute top-1/2 left-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-sky-500 rounded-[38px] z-30 group-hover:bg-sky-600" />
 
-{/* pub button */}
-
-<button className="relative w-[90vw] max-w-[655px] aspect-square focus:outline-none active:scale-95 transition group">
-  {/* Bottom Layer */}
-  <div className="absolute top-1/2 left-1/2 w-96 h-[475px] -translate-x-1/2 -translate-y-1/2 origin-center rotate-[-44.75deg] bg-white rounded-[45px] group-hover:bg-gray-100"></div>
-
-  {/* Middle Layer */}
-  <div className="absolute top-1/2 left-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 origin-center rotate-[-44.75deg] bg-slate-600 rounded-[43px] group-hover:bg-slate-500"></div>
-
-  {/* Top Layer */}
-  <div className="absolute top-1/2 left-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 origin-center rotate-[-44.75deg] bg-sky-500 rounded-[38px] group-hover:bg-sky-600"></div>
-
-  {/* Optional Content */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl text-center pointer-events-none">
-    Click Me
+  {/* Centered Content */}
+  <div className="absolute inset-0 flex items-center justify-center z-40">
+    <span className="text-white text-xl font-semibold text-center">Click Me 2</span>
   </div>
+  
 </button>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
