@@ -22,20 +22,20 @@ export default function Home() {
 </button>
 
 
-{/* video button */}
+{/* Video Button */}
+<button className="relative w-[90vw] max-w-[900px] aspect-[1/1] rounded-[10%] focus:outline-none active:scale-95 transition group overflow-hidden">
 
-<button className="relative w-[90vw] max-w-[900px] aspect-[1/1] rounded-[222px] focus:outline-none active:scale-95 transition group overflow-hidden">
   {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[222px] group-hover:bg-gray-100"></div>
+  <div className="absolute inset-0 bg-white rounded-[10%] group-hover:bg-gray-100 transition" />
 
   {/* Middle Layer */}
-  <div className="absolute top-[3%] left-[2.5%] w-[95%] h-[94%] bg-sky-500 rounded-[196px] group-hover:bg-sky-600 transition" />
+  <div className="absolute top-[3%] left-[2.5%] w-[95%] h-[94%] bg-sky-500 rounded-[10%] group-hover:bg-sky-600 transition" />
 
   {/* Large Image */}
   <img
     src="https://placehold.co/1184x1131"
     alt="Main visual"
-    className="absolute top-[9%] left-[8%] w-[84%] h-[82%] object-cover rounded-[196px]"
+    className="absolute top-[9%] left-[8%] w-[84%] h-[82%] object-cover rounded-[10%]"
   />
 
   {/* Inner Image */}
@@ -45,6 +45,7 @@ export default function Home() {
     className="absolute top-[31%] left-[31%] w-[38%] h-[38%] object-contain"
   />
 </button>
+
 
 
 {/* Are you ready button? */}
@@ -129,7 +130,7 @@ export default function Home() {
   <div className="absolute inset-[2%] m-[12px] bg-sky-500 rounded-3xl group-hover:bg-sky-600"></div>
 
   {/* Centered Content */}
-  <div className="absolute inset-0 flex flex-col items-center justify-center text-white font-semibold text-xl md:text-xl text-center gap-8 px-4">
+  <div className="absolute inset-0 flex flex-col items-center justify-center text-white font-semibold text-xs md:text-xl text-center gap-8 px-4">
     <span>Social and Behavior Change (SBC) is a <br /> strategic process that aims to change <br/> peoples attitudes, beliefs, and practices to <br/> promote positive social change. </span>
     <span>Through this digital diary, we can make our <br /> enviornment easier where people <br/> in out community will be able to adapt positive <br/> practices through animations, musics, videos, <br/> photos, documents, quizzes etc.</span>
     
@@ -389,7 +390,7 @@ export default function Home() {
     {/* Inner circle with content */}
     <div className="absolute left-[16%] top-[15%] w-[68%] h-[70%] bg-blue-800 rounded-full group-hover:bg-blue-700 flex flex-col items-center justify-center text-white text-base md:text-xl font-semibold space-y-2">
       
-      <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-9xl text-center px-4">
+      <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-3xl sm:text-base md:text-xl lg:text-9xl text-center px-4">
     <span>ENG</span>
   </div>
       
@@ -412,8 +413,8 @@ export default function Home() {
     {/* Inner circle with content */}
     <div className="absolute left-[16%] top-[15%] w-[68%] h-[70%] bg-blue-800 rounded-full group-hover:bg-blue-700 flex flex-col items-center justify-center text-white text-base md:text-xl font-semibold space-y-2">
       
-      <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-9xl text-center px-4">
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-56 md:w-56" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-2xl sm:text-base md:text-xl lg:text-9xl text-center px-4">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-56 md:w-56" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 10l9-7 9 7v10a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V14H9v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10z" />
       </svg>
 
@@ -478,7 +479,7 @@ export default function Home() {
     <div className="absolute left-[16%] top-[15%] w-[68%] h-[70%] bg-blue-800 rounded-full group-hover:bg-blue-700 flex flex-col items-center justify-center text-white text-base md:text-xl font-semibold space-y-2">
       
       <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-9xl text-center px-4">
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-80 md:w-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-40 w-40 md:h-80 md:w-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v4m0 4h.01" />
       </svg>
 
@@ -490,7 +491,7 @@ export default function Home() {
   </button>
 
 
-{/* Early Childhood Development */}
+{/* Climate Change */}
 <button className="relative group focus:outline-none active:scale-95 transition w-[80vw] max-w-96 aspect-square m-4">
     {/* Outer circle */}
     <div className="absolute inset-0 bg-sky-200 rounded-full group-hover:bg-sky-300"></div>
@@ -498,11 +499,11 @@ export default function Home() {
     {/* Inner circle */}
     <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
       {/* Icon */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
       </svg>
       {/* Text */}
-      <span className="text-sm md:text-2xl">Climate <br></br> Change </span>
+      <span className="text-xl md:text-2xl">Climate <br></br> Change </span>
     </div>
   </button>
 
@@ -516,7 +517,7 @@ export default function Home() {
     <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
      
       {/* Text */}
-      <span className="text-sm md:text-4xl">Cholera<br></br> </span>
+      <span className="text-3xl md:text-4xl">Cholera<br></br> </span>
     </div>
   </button>
 
@@ -529,11 +530,11 @@ export default function Home() {
     {/* Inner circle */}
     <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
       {/* Icon */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
       </svg>
       {/* Text */}
-      <span className="text-sm md:text-2xl">Child Survival <br></br> And <br></br> Development </span>
+      <span className="text-xl md:text-2xl">Child Survival <br></br> And <br></br> Development </span>
     </div>
   </button>
 
@@ -545,11 +546,11 @@ export default function Home() {
     {/* Inner circle */}
     <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
       {/* Icon */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
       </svg>
       {/* Text */}
-      <span className="text-sm md:text-2xl">Child  <br></br> Rights <br></br>  </span>
+      <span className="text-xl md:text-2xl">Child  <br></br> Rights <br></br>  </span>
     </div>
   </button>
 
@@ -570,7 +571,7 @@ export default function Home() {
     <div className="absolute left-[16%] top-[15%] w-[68%] h-[70%] bg-blue-800 rounded-full group-hover:bg-blue-700 flex flex-col items-center justify-center text-white text-base md:text-xl font-semibold space-y-2">
       
       <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-9xl text-center px-4">
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-80 md:w-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-80 md:w-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
       </svg>
 
@@ -657,7 +658,7 @@ export default function Home() {
 
 
 
-    <span>Additional Videos</span>
+    <span >Additional Videos</span>
   </div>
 </button>
 
@@ -679,7 +680,7 @@ export default function Home() {
   <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-30 md:w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
       </svg>
-    <span>Additional <br /> Resources</span>
+    <span className="text-xl md:text-3xl" >Additional <br /> Resources</span>
    
   </div>
 </button>
@@ -711,26 +712,23 @@ export default function Home() {
 
 
 {/* Document Files Button */}
-<button className="relative w-[90vw] max-w-[655px] h-[655px] focus:outline-none active:scale-95 transition group overflow-hidden">
+<button className="relative w-[90vw] max-w-[400px] sm:max-w-[655px] max-h-[400px] sm:max-h-[655px] focus:outline-none active:scale-95 transition group overflow-hidden">
   {/* White Layer (Bottom) */}
-  <div className="absolute top-1/2 left-1/2 w-[440px] h-[440px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-white rounded-[43px] z-10" />
+  <div className="absolute top-1/2 left-1/2 w-[280px] h-[280px] sm:w-[440px] sm:h-[440px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-white rounded-[30px] sm:rounded-[43px] z-10" />
 
   {/* Slate Layer (Middle) */}
-  <div className="absolute top-1/2 left-1/2 w-[420px] h-[420px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#50716C] rounded-[43px] z-20" />
+  <div className="absolute top-1/2 left-1/2 w-[260px] h-[260px] sm:w-[420px] sm:h-[420px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#50716C] rounded-[28px] sm:rounded-[43px] z-20" />
 
   {/* Sky Layer (Top) */}
-  <div className="absolute top-1/2 left-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-sky-500 rounded-[38px] z-30 group-hover:bg-sky-600" />
+  <div className="absolute top-1/2 left-1/2 w-[220px] h-[220px] sm:w-96 sm:h-96 -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-sky-500 rounded-[24px] sm:rounded-[38px] z-30 group-hover:bg-sky-600" />
 
   {/* Centered Content */}
   <div className="absolute inset-0 flex items-center justify-center z-40">
-  <div className="flex flex-row items-center justify-center gap-x-4 text-white">
-    
-    <span className="text-xl font-semibold text-center">Click Me</span>
+    <div className="flex flex-row items-center justify-center gap-x-2 sm:gap-x-4 text-white">
+      <span className="text-base sm:text-xl font-semibold text-center">Click Me</span>
+    </div>
   </div>
-</div>
-
 </button>
-
 
 
 
@@ -757,27 +755,27 @@ export default function Home() {
 
 
 {/* Document Files Button */}
-<button className="relative w-[90vw] max-w-[655px] h-[655px] focus:outline-none active:scale-95 transition group overflow-hidden">
+<button className="relative w-[100vw] max-w-[500px] sm:max-w-[585px] h-[400px] sm:h-[555px] focus:outline-none active:scale-95 transition group overflow-hidden">
   {/* White Layer (Bottom) */}
-  <div className="absolute top-1/2 left-1/2 w-[440px] h-[440px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-white rounded-[43px] z-10" />
+  <div className="absolute top-1/2 left-1/2 w-[280px] h-[280px] sm:w-[440px] sm:h-[440px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-white rounded-[30px] sm:rounded-[43px] z-10" />
 
   {/* Slate Layer (Middle) */}
-  <div className="absolute top-1/2 left-1/2 w-[420px] h-[420px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#50716C] rounded-[43px] z-20" />
+  <div className="absolute top-1/2 left-1/2 w-[260px] h-[260px] sm:w-[420px] sm:h-[420px] -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-[#50716C] rounded-[28px] sm:rounded-[43px] z-20" />
 
   {/* Sky Layer (Top) */}
-  <div className="absolute top-1/2 left-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-sky-500 rounded-[38px] z-30 group-hover:bg-sky-600" />
+  <div className="absolute top-1/2 left-1/2 w-[220px] h-[220px] sm:w-96 sm:h-96 -translate-x-1/2 -translate-y-1/2 rotate-[-44.75deg] origin-center bg-sky-500 rounded-[24px] sm:rounded-[38px] z-30 group-hover:bg-sky-600" />
 
   {/* Centered Content */}
   <div className="absolute inset-0 flex items-center justify-center z-40">
-  <div className="flex flex-row items-center justify-center gap-x-4 text-white">
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-    </svg>
-    <span className="text-xl font-semibold text-center">Document Files</span>
+    <div className="flex flex-row items-center justify-center gap-x-2 sm:gap-x-4 text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-10 sm:w-10 md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+      </svg>
+      <span className="text-base sm:text-xl font-semibold text-center">Document Files</span>
+    </div>
   </div>
-</div>
-
 </button>
+
 
 
 
