@@ -587,10 +587,10 @@ export default function Home() {
  
 <button className="relative w-[90vw] max-w-[1090px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
   {/* Outer layer */}
-  <div className="absolute inset-0 bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
+  <div className="absolute inset-x-[6%] inset-y-[-5%] bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
 
   {/* Middle layer */}
-  <div className="absolute inset-[8%] bg-white rounded-[203px]"></div>
+  <div className="absolute inset-x-[10%] inset-y-[7%] bg-white rounded-[203px]"></div>
 
   {/* Inner layer */}
   <div className="absolute inset-[12%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
@@ -610,10 +610,11 @@ export default function Home() {
  
 <button className="relative w-[90vw] max-w-[1090px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
   {/* Outer layer */}
-  <div className="absolute inset-0 bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
+  <div className="absolute inset-x-[6%] inset-y-[-5%] bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
 
   {/* Middle layer */}
-  <div className="absolute inset-[8%] bg-white rounded-[203px]"></div>
+  <div className="absolute inset-x-[10%] inset-y-[7%] bg-white rounded-[203px]"></div>
+
 
   {/* Inner layer */}
   <div className="absolute inset-[12%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
@@ -637,10 +638,11 @@ export default function Home() {
  
 <button className="relative w-[90vw] max-w-[1090px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
   {/* Outer layer */}
-  <div className="absolute inset-0 bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
+  <div className="absolute inset-x-[6%] inset-y-[-5%] bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
 
   {/* Middle layer */}
-  <div className="absolute inset-[8%] bg-white rounded-[203px]"></div>
+  <div className="absolute inset-x-[10%] inset-y-[7%] bg-white rounded-[203px]"></div>
+
 
   {/* Inner layer */}
   <div className="absolute inset-[12%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
@@ -664,10 +666,10 @@ export default function Home() {
 
 <button className="relative w-[90vw] max-w-[600px] aspect-[3/1] rounded-[251.5px] focus:outline-none active:scale-95 transition group">
   {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
+  <div className="absolute inset-x-[-1%] inset-y-[-6%] bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
 
   {/* Middle Layer */}
-  <div className="absolute inset-x-[2.6%] inset-y-[3%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
+  <div className="absolute inset-x-[2.6%] inset-y-[1%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
 
   {/* Inner Layer */}
   <div className="absolute inset-x-[5.6%] inset-y-[8%] bg-sky-500 rounded-[251.5px] group-hover:bg-sky-600"></div>
