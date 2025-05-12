@@ -290,10 +290,10 @@ export default function Home() {
 
 <button className="relative w-[90vw] max-w-[600px] aspect-[3/1] rounded-[251.5px] focus:outline-none active:scale-95 transition group">
   {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
+  <div className="absolute inset-x-[-2%] inset-y-[-10%] bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
 
   {/* Middle Layer */}
-  <div className="absolute inset-x-[2.6%] inset-y-[3%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
+  <div className="absolute inset-x-[3.5%] inset-y-[3.5%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
 
   {/* Inner Layer */}
   <div className="absolute inset-x-[5.6%] inset-y-[8%] bg-sky-500 rounded-[251.5px] group-hover:bg-sky-600"></div>
