@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-<main className="flex min-h-screen flex-col items-center justify-center bg-gray-100 space-y-8 p-6  space-x-6">
+<main className="flex min-h-screen flex-col items-center justify-center bg-gray-100 space-y-20 p-6  space-x-6">
 
 {/* sbc button */}
-<button className="relative w-[90vw] max-w-[800px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
+<button className="relative w-[90vw] max-w-[600px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
   {/* Outer Layer */}
   <div className="absolute inset-x-[2%] inset-y-[-10%] bg-amber-400 rounded-full group-hover:bg-amber-300"></div>
 
@@ -341,10 +341,10 @@ export default function Home() {
 
   <button className="relative w-[90vw] max-w-[900px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
   {/* Outer Layer */}
-  <div className="absolute inset-0 bg-amber-400 rounded-full group-hover:bg-amber-300"></div>
+  <div className="absolute inset-x-[1%] inset-y-[-16%] bg-amber-400 rounded-full group-hover:bg-amber-300"></div>
 
   {/* Middle Layer */}
-  <div className="absolute inset-x-[3%] inset-y-[6%] bg-white rounded-full"></div>
+  <div className="absolute inset-x-[4%] inset-y-[4%] bg-white rounded-full"></div>
 
   {/* Inner Layer */}
   <div className="absolute inset-x-[5%] inset-y-[10%] bg-sky-500 rounded-full group-hover:bg-sky-600"></div>
@@ -357,9 +357,9 @@ export default function Home() {
 
 {/* learn more about sbc button */}
 
-<button className="relative w-[90vw] max-w-[900px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
+<button className="relative  w-[90vw] max-w-[800px] aspect-[8/1]   rounded-full focus:outline-none active:scale-95 transition group">
   {/* Outer Layer */}
-  <div className="absolute inset-0 bg-sky-500 rounded-full group-hover:bg-sky-400"></div>
+  <div className="absolute inset-x-[-1%] inset-y-[-16%] bg-sky-500 rounded-full group-hover:bg-sky-400"></div>
 
   {/* Middle Layer */}
   <div className="absolute inset-x-[2.7%] inset-y-[10%] bg-white rounded-full"></div>
