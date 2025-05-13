@@ -552,7 +552,7 @@ export default function Home() {
       {/* Text */}
       <span className="text-xl md:text-2xl">Child  <br></br> Rights <br></br>  </span>
     </div>
-  </button>
+</button>
 
 
 {/* !  Left Arrow */}
