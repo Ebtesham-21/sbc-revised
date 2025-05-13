@@ -155,7 +155,7 @@ export default function Home() {
   <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-30 md:w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
       </svg>
-    <span>Quiz</span>
+    <span className="text-xl">Quiz</span>
    
   </div>
 </button>
@@ -320,7 +320,7 @@ export default function Home() {
     <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
     
       {/* Text */}
-      <span className="text-sm md:text-4xl">Menstrual <br></br> Hygiene</span>
+      <span className="text-xl md:text-4xl">Menstrual <br></br> Hygiene</span>
     </div>
   </button>
 
@@ -333,7 +333,7 @@ export default function Home() {
     <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
      
       {/* Text */}
-      <span className="text-sm md:text-4xl">Measles <br></br> </span>
+      <span className="text-xl md:text-4xl">Measles <br></br> </span>
     </div>
   </button>
 
@@ -453,11 +453,11 @@ export default function Home() {
     {/* Inner circle */}
     <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
       {/* Icon */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
       </svg>
       {/* Text */}
-      <span className="text-sm md:text-2xl">Early Childhood <br></br> Development </span>
+      <span className="text-xl md:text-2xl">Early Childhood <br></br> Development </span>
     </div>
   </button>
 
@@ -686,29 +686,7 @@ export default function Home() {
 </button>
 
 
-{/* Add video button */}
 
-<button className="relative w-[90vw] max-w-[900px] aspect-[1/1] rounded-[100px] focus:outline-none active:scale-95 transition group overflow-hidden">
-  {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[222px] group-hover:bg-gray-100"></div>
-
-  {/* Middle Layer */}
-  <div className="absolute top-[3%] left-[2.5%] w-[95%] h-[94%] bg-sky-500 rounded-[196px] group-hover:bg-sky-600 transition" />
-
-  {/* Large Image */}
-  <img
-    src="https://placehold.co/1184x1131"
-    alt="Main visual"
-    className="absolute top-[9%] left-[8%] w-[84%] h-[82%] object-cover rounded-[196px]"
-  />
-
-  {/* Inner Image */}
-  <img
-    src="https://placehold.co/532x532"
-    alt="Overlay icon"
-    className="absolute top-[31%] left-[31%] w-[38%] h-[38%] object-contain"
-  />
-</button>
 
 
 {/* Document Files Button */}
