@@ -23,6 +23,12 @@ import EarlyChildhoodDevelopment from "./components/EarlyChildhoodDevelopmentBut
 import ClimateChangeButton from "./components/ClimateChangeButton/page";
 import CholeraButton from "./components/CholeraButton/page";
 import ChildSurvivalAndDevelopmentButton from "./components/ChildSurvivalAndDevelopmentButton/page";
+import ChildRightsButton from "./components/ChildRightsButton/page";
+import LeftArrowButton from "./components/LeftArrowButton/page";
+import AudioFilesButton from "./components/AudioFilesButton/page";
+import AnimationButton from "./components/AnimationButton/page";
+import AdditionalVideos from "./components/AdditionalVideos/page";
+import AdditionalResourcesButton from "./components/AdditionalResourcesButton/page";
 
 
 export default function Home() {
@@ -54,6 +60,12 @@ export default function Home() {
 <ClimateChangeButton/>
 <CholeraButton/>
 <ChildSurvivalAndDevelopmentButton/>
+<ChildRightsButton/>
+<LeftArrowButton/>
+<AudioFilesButton/>
+<AnimationButton/>
+<AdditionalVideos/>
+<AdditionalResourcesButton/>
 
 
 
@@ -81,24 +93,6 @@ export default function Home() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 
 
@@ -138,157 +132,46 @@ export default function Home() {
 
 
 
+  
 
 
 
 
 
-  {/* Child Rights */}
-<button className="relative group focus:outline-none active:scale-95 transition w-[80vw] max-w-96 aspect-square m-4">
-    {/* Outer circle */}
-    <div className="absolute inset-0 bg-sky-200 rounded-full group-hover:bg-sky-300"></div>
-
-    {/* Inner circle */}
-    <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
-      {/* Icon */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-      </svg>
-      {/* Text */}
-      <span className="text-xl md:text-2xl">Child  <br></br> Rights <br></br>  </span>
-    </div>
-</button>
-
-
-{/* !  Left Arrow */}
-
-<button className="relative w-[80vw] max-w-[700px] aspect-[1/1] focus:outline-none active:scale-95 transition group">
-    {/* Outer rectangle */}
-    <div className="absolute inset-0 bg-sky-500 rounded-[7%] group-hover:bg-sky-400"></div>
-
-    {/* Inner rectangle */}
-    <div className="absolute left-[4%] top-[4%] w-[92%] h-[92%] bg-blue-800 rounded-[7%] group-hover:bg-blue-700"></div>
-
-    {/* Outer circle */}
-    <div className="absolute left-[12%] top-[11%] w-[76%] h-[78%] bg-sky-500 rounded-full group-hover:bg-sky-400"></div>
-
-    {/* Inner circle with content */}
-    <div className="absolute left-[16%] top-[15%] w-[68%] h-[70%] bg-blue-800 rounded-full group-hover:bg-blue-700 flex flex-col items-center justify-center text-white text-base md:text-xl font-semibold space-y-2">
-      
-      <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-9xl text-center px-4">
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-80 md:w-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
-      </svg>
 
 
 
-    </div>
-      
-      
-    </div>
-  </button>
 
 
-  {/* Audio  Files */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
-<button className="relative w-[90vw] max-w-[1090px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
-  {/* Outer layer */}
-  <div className="absolute inset-x-[6%] inset-y-[-5%] bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
-
-  {/* Middle layer */}
-  <div className="absolute inset-x-[10%] inset-y-[7%] bg-white rounded-[203px]"></div>
-
-  {/* Inner layer */}
-  <div className="absolute inset-[12%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
-
-  {/* Text */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl md:text-3xl text-center">
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-40 md:w-40" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M9 17.5a2.5 2.5 0 1 1-2-2.45V6.09l10-2.18v10.14a2.5 2.5 0 1 1-2 2.45 2.5 2.5 0 0 1 2-2.45V6.91l-6 1.31v7.83a2.5 2.5 0 1 1-2 2.45z"/>
-    </svg>
-
-    <span>Audio Files</span>
-  </div>
-</button>
-
-
-{/* Animation  Files */}
- 
-<button className="relative w-[90vw] max-w-[1090px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
-  {/* Outer layer */}
-  <div className="absolute inset-x-[6%] inset-y-[-5%] bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
-
-  {/* Middle layer */}
-  <div className="absolute inset-x-[10%] inset-y-[7%] bg-white rounded-[203px]"></div>
-
-
-  {/* Inner layer */}
-  <div className="absolute inset-[12%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
-
-  {/* Text */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl md:text-3xl text-center">
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-40 md:w-40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 7h2l2-3h10l2 3h2a1 1 0 011 1v11a1 1 0 01-1 1H3a1 1 0 01-1-1V8a1 1 0 011-1z" />
-      <circle cx="12" cy="13" r="4" stroke="currentColor" strokeWidth="2" />
-    </svg>
-
-
-    <span>Animation</span>
-  </div>
-</button>
 
 
 
 
-{/* Additional Videos */}
- 
-<button className="relative w-[90vw] max-w-[1090px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
-  {/* Outer layer */}
-  <div className="absolute inset-x-[6%] inset-y-[-5%] bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
-
-  {/* Middle layer */}
-  <div className="absolute inset-x-[10%] inset-y-[7%] bg-white rounded-[203px]"></div>
-
-
-  {/* Inner layer */}
-  <div className="absolute inset-[12%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
-
-  {/* Text */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-xl md:text-3xl text-center">
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-40 md:w-40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z" />
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 2v6h6" />
-      <polygon points="10,10 16,13 10,16 10,10" fill="currentColor" />
-    </svg>
 
 
 
-    <span >Additional Videos</span>
-  </div>
-</button>
 
-
-{/* Additional Resources button */}
-
-<button className="relative w-[90vw] max-w-[600px] aspect-[3/1] rounded-[251.5px] focus:outline-none active:scale-95 transition group">
-  {/* Outer Layer */}
-  <div className="absolute inset-x-[-1%] inset-y-[-6%] bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
-
-  {/* Middle Layer */}
-  <div className="absolute inset-x-[2.6%] inset-y-[1%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
-
-  {/* Inner Layer */}
-  <div className="absolute inset-x-[5.6%] inset-y-[8%] bg-sky-500 rounded-[251.5px] group-hover:bg-sky-600"></div>
-
-  {/* Text Content */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-lg md:text-3xl lg:text-4xl text-center px-4">
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-30 md:w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-      </svg>
-    <span className="text-xl md:text-3xl" >Additional <br /> Resources</span>
-   
-  </div>
-</button>
 
 
 
