@@ -1,101 +1,24 @@
 import Image from "next/image";
+import Sbcbutton from "../app/components/whatIsSbc/page";
+import VideoButton from "../app/components/videoButton/page";
+import AreyoureadyButton from "./components/AreYouReadyButton/page";
+import CongratulationsButton from "../app/components/congratulationsButton/page";
+import AreyouReadybutton2 from "./components/AreYouReadyButton2/page";
+import SocialProtection from "./components/SocialProtection/page";
+import SocialandBehaviorChange from "./components/SocialandBehaviorChange/page";
 
 export default function Home() {
   return (
 <main className="flex min-h-screen flex-col items-center justify-center bg-gray-100 space-y-20 p-6  space-x-6">
 
-{/* sbc button */}
-<button className="relative w-[90vw] max-w-[600px] aspect-[8/1] rounded-full focus:outline-none active:scale-95 transition group">
-  {/* Outer Layer */}
-  <div className="absolute inset-x-[2%] inset-y-[-10%] bg-amber-400 rounded-full group-hover:bg-amber-300"></div>
 
-  {/* Middle Layer */}
-  <div className="absolute inset-x-[4%] inset-y-[4%] bg-white rounded-full"></div>
-
-  {/* Inner Layer */}
-  <div className="absolute inset-x-[5%] inset-y-[10%] bg-sky-500 rounded-full group-hover:bg-sky-600"></div>
-
-  {/* Text Content */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-base md:text-xl lg:text-2xl text-center px-2">
-    <span>What is SBC ? </span>
-  </div>
-</button>
-
-
-{/* Video Button */}
-<button className="relative w-[90vw] max-w-[900px] aspect-[1/1] rounded-[10%] focus:outline-none active:scale-95 transition group overflow-hidden">
-
-  {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[10%] group-hover:bg-gray-100 transition" />
-
-  {/* Middle Layer */}
-  <div className="absolute top-[3%] left-[2.5%] w-[95%] h-[94%] bg-sky-500 rounded-[10%] group-hover:bg-sky-600 transition" />
-
-  {/* Large Image */}
-  <img
-    src="https://placehold.co/1184x1131"
-    alt="Main visual"
-    className="absolute top-[9%] left-[8%] w-[84%] h-[82%] object-cover rounded-[10%]"
-  />
-
-  {/* Inner Image */}
-  <img
-    src="https://placehold.co/532x532"
-    alt="Overlay icon"
-    className="absolute top-[31%] left-[31%] w-[38%] h-[38%] object-contain"
-  />
-</button>
-
-
-
-{/* Are you ready button? */}
-<button className="relative w-[90vw] max-w-[588px] h-96 rounded-3xl focus:outline-none active:scale-95 transition group">
-  {/* Outer layer */}
-  <div className="absolute inset-0 bg-sky-200 rounded-3xl group-hover:bg-sky-300"></div>
-
-  {/* Inner layer */}
-  <div className="absolute inset-[2%] m-[12px] bg-sky-500 rounded-3xl group-hover:bg-sky-600"></div>
-
-  {/* Centered Content */}
-  <div className="absolute inset-0 flex flex-col items-center justify-center text-white font-semibold text-xl md:text-4xl text-center gap-8 px-4">
-    <span>Time to test your <br /> knowledge about Cholera.</span>
-    <span>Answer these multiple <br /> choice questions.</span>
-  </div>
-</button>
-
-
-{/* Congratulations button */}
-<button className="relative w-[90vw] max-w-[588px] h-96 rounded-3xl focus:outline-none active:scale-95 transition group">
-  {/* Outer layer */}
-  <div className="absolute inset-0 bg-sky-200 rounded-3xl group-hover:bg-sky-300"></div>
-
-  {/* Inner layer */}
-  <div className="absolute inset-[2%] m-[12px] bg-sky-500 rounded-3xl group-hover:bg-sky-600"></div>
-
-  {/* Centered Content */}
-  <div className="absolute inset-0 flex flex-col items-center justify-center text-white font-semibold text-xl md:text-4xl text-center gap-8 px-4">
-    <span>Congratulations! <br /> You've done a good job!</span>
-    <span>You will have fun in the next <br /> topics too.</span>
-    <span>Let's move on then!</span>
-  </div>
-</button>
-
-
-
-{/* Are you ready button*/}
-<button className="relative w-[90vw] max-w-[588px] h-96 rounded-3xl focus:outline-none active:scale-95 transition group">
-  {/* Outer layer */}
-  <div className="absolute inset-0 bg-sky-200 rounded-3xl group-hover:bg-sky-300"></div>
-
-  {/* Inner layer */}
-  <div className="absolute inset-[2%] m-[12px] bg-sky-500 rounded-3xl group-hover:bg-sky-600"></div>
-
-  {/* Centered Content */}
-  <div className="absolute inset-0 flex flex-col items-center justify-center text-white font-semibold text-xl md:text-4xl text-center gap-8 px-4">
-    <span>Are you ready? <br /> </span>
-    
-  </div>
-</button>
+<Sbcbutton />
+<VideoButton />
+<AreyoureadyButton/>
+<CongratulationsButton/>
+<AreyouReadybutton2/>
+<SocialProtection/>
+<SocialandBehaviorChange/>
 
 
 
@@ -103,39 +26,30 @@ export default function Home() {
 
 
 
-  {/* social protection */}
-  <button className="relative group focus:outline-none active:scale-95 transition w-[80vw] max-w-96 aspect-square m-4">
-    {/* Outer circle */}
-    <div className="absolute inset-0 bg-sky-200 rounded-full group-hover:bg-sky-300"></div>
-
-    {/* Inner circle */}
-    <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
-      {/* Icon */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-      </svg>
-      {/* Text */}
-      <span className="text-sm md:text-2xl">Social <br></br> Protection</span>
-    </div>
-  </button>
 
 
 
-  {/* social and behavior change */}
-<button className="relative w-[90vw] max-w-[588px] h-96 rounded-3xl focus:outline-none active:scale-95 transition group">
-  {/* Outer layer */}
-  <div className="absolute inset-0 bg-sky-200 rounded-3xl group-hover:bg-sky-300"></div>
 
-  {/* Inner layer */}
-  <div className="absolute inset-[2%] m-[12px] bg-sky-500 rounded-3xl group-hover:bg-sky-600"></div>
 
-  {/* Centered Content */}
-  <div className="absolute inset-0 flex flex-col items-center justify-center text-white font-semibold text-xs md:text-xl text-center gap-8 px-4">
-    <span>Social and Behavior Change (SBC) is a <br /> strategic process that aims to change <br/> peoples attitudes, beliefs, and practices to <br/> promote positive social change. </span>
-    <span>Through this digital diary, we can make our <br /> enviornment easier where people <br/> in out community will be able to adapt positive <br/> practices through animations, musics, videos, <br/> photos, documents, quizzes etc.</span>
-    
-  </div>
-</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 {/* quiz button */}
