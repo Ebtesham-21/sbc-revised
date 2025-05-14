@@ -6,6 +6,15 @@ import CongratulationsButton from "../app/components/congratulationsButton/page"
 import AreyouReadybutton2 from "./components/AreYouReadyButton2/page";
 import SocialProtection from "./components/SocialProtection/page";
 import SocialandBehaviorChange from "./components/SocialandBehaviorChange/page";
+import Quizbutton from "./components/Quizbutton/page";
+import Photosbutton from "./components/Photosbutton/page";
+import Outofschool from "./components/Outofschool/page";
+import MusicButton from "./components/MusicButton/page";
+import AllthreatsOfCholeraButton from "./components/AllthreatsOfCholeraButton/page";
+import CholeraPrevention from "./components/CholeraPrevention/page";
+import OutbreakofCholeraButton from "./components/OutbreakofCholeraButton/page";
+import MenstrualHygieneButton from "./components/MenstrualHygenieButton/page";
+
 
 export default function Home() {
   return (
@@ -19,6 +28,14 @@ export default function Home() {
 <AreyouReadybutton2/>
 <SocialProtection/>
 <SocialandBehaviorChange/>
+<Quizbutton/>
+<Photosbutton/>
+<Outofschool/>
+<MusicButton/>
+<AllthreatsOfCholeraButton/>
+<CholeraPrevention/>
+<OutbreakofCholeraButton/>
+<MenstrualHygieneButton/>
 
 
 
@@ -52,191 +69,32 @@ export default function Home() {
 
 
 
-{/* quiz button */}
 
-<button className="relative w-[90vw] max-w-[600px] aspect-[3/1] rounded-[251.5px] focus:outline-none active:scale-95 transition group">
-  {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
 
-  {/* Middle Layer */}
-  <div className="absolute inset-x-[2.6%] inset-y-[3%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
 
-  {/* Inner Layer */}
-  <div className="absolute inset-x-[5.6%] inset-y-[8%] bg-sky-500 rounded-[251.5px] group-hover:bg-sky-600"></div>
 
-  {/* Text Content */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-lg md:text-3xl lg:text-6xl text-center px-4">
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-30 md:w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-      </svg>
-    <span className="text-xl">Quiz</span>
-   
-  </div>
-</button>
 
-{/* Photos button */}
- 
-<button className="relative w-[90vw] max-w-[800px] aspect-[4/1] rounded-[203px] focus:outline-none active:scale-95 transition group m-2">
-  {/* Outer layer with spacing */}
-  <div className="absolute inset-x-[5%] inset-y-[4%] bg-sky-200 rounded-[203px] group-hover:bg-sky-300"></div>
 
-  {/* Middle layer */}
-  <div className="absolute inset-x-[8%] inset-y-[14%] bg-white rounded-[203px]"></div>
 
-  {/* Inner layer */}
-  <div className="absolute inset-x-[10%] inset-y-[20%] bg-sky-500 rounded-[203px] group-hover:bg-sky-600"></div>
 
-  {/* Text */}
-  <div className="absolute inset-0 flex items-center justify-center gap-4 text-white font-semibold text-xl md:text-3xl text-center">
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-14 md:w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-    </svg>
-    <span>Photos</span>
-  </div>
-</button>
 
 
+  
 
-  {/* Out of school children protection */}
-  <button className="relative group focus:outline-none active:scale-95 transition w-[80vw] max-w-96 aspect-square m-4">
-    {/* Outer circle */}
-    <div className="absolute inset-0 bg-sky-200 rounded-full group-hover:bg-sky-300"></div>
 
-    {/* Inner circle */}
-    <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
-      {/* Icon */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-20 md:w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-      </svg>
-      {/* Text */}
-      <span className="text-xl md:text-2xl">Out of school <br></br> Children</span>
-    </div>
-  </button>
 
 
-  {/* Music button */}
 
-  <button className="relative w-[80vw] max-w-[700px] aspect-[1/1] focus:outline-none active:scale-95 transition group">
-    {/* Outer rectangle */}
-    <div className="absolute inset-0 bg-sky-500 rounded-[7%] group-hover:bg-sky-400"></div>
 
-    {/* Inner rectangle */}
-    <div className="absolute left-[4%] top-[4%] w-[92%] h-[92%] bg-blue-800 rounded-[7%] group-hover:bg-blue-700"></div>
-
-    {/* Outer circle */}
-    <div className="absolute left-[12%] top-[11%] w-[76%] h-[78%] bg-sky-500 rounded-full group-hover:bg-sky-400"></div>
 
-    {/* Inner circle with content */}
-    <div className="absolute left-[16%] top-[15%] w-[68%] h-[70%] bg-blue-800 rounded-full group-hover:bg-blue-700 flex flex-col items-center justify-center text-white text-base md:text-xl font-semibold space-y-2">
-      {/* Icon */}
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 md:h-56 md:w-56" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-      </svg>
-      
-      
-    </div>
-  </button>
-
-
-{/* all the threats of cholera button */}
-<button className="relative w-[90vw] max-w-[632px] aspect-[3/4] rounded-[156px] focus:outline-none active:scale-95 transition group overflow-hidden">
-  {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[156px] group-hover:bg-gray-100"></div>
-
-  {/* Middle Layer */}
-  <div className="absolute top-[2%] left-[3%] w-[94%] h-[71%] bg-sky-500 rounded-[147px] group-hover:bg-sky-600"></div>
-
-  {/* Icon */}
-  <div className="absolute top-[23%] left-[15%] w-64 h-64 rounded-md flex justify-center items-center">
-    {/* Example SVG */}
-    
-  </div>
-
-  {/* Text */}
-  <div className="absolute bottom-[7%] left-1/2 -translate-x-1/2 text-center text-sky-500 text-lg sm:text-2xl md:text-3xl font-bold font-sans">
-    All the threats<br /> of Cholera
-  </div>
-</button>
-
-
-{/* all the threats of cholera button */}
-<button className="relative w-[90vw] max-w-[632px] aspect-[3/4] rounded-[156px] focus:outline-none active:scale-95 transition group overflow-hidden">
-  {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[156px] group-hover:bg-gray-100"></div>
-
-  {/* Middle Layer */}
-  <div className="absolute top-[2%] left-[3%] w-[94%] h-[71%] bg-sky-500 rounded-[147px] group-hover:bg-sky-600"></div>
-
-  {/* Icon */}
-  <div className="absolute top-[23%] left-[15%] w-64 h-64 rounded-md flex justify-center items-center">
-    {/* Example SVG */}
-    
-  </div>
-
-  {/* Text */}
-  <div className="absolute bottom-[7%] left-1/2 -translate-x-1/2 text-center text-sky-500 text-lg sm:text-2xl md:text-3xl font-bold font-sans">
-    Cholera Prevention<br /> at School
-  </div>
-</button>
-
-{/* all the threats of cholera button */}
-<button className="relative w-[90vw] max-w-[632px] aspect-[3/4] rounded-[156px] focus:outline-none active:scale-95 transition group overflow-hidden">
-  {/* Outer Layer */}
-  <div className="absolute inset-0 bg-white rounded-[156px] group-hover:bg-gray-100"></div>
-
-  {/* Middle Layer */}
-  <div className="absolute top-[2%] left-[3%] w-[94%] h-[71%] bg-sky-500 rounded-[147px] group-hover:bg-sky-600"></div>
-
-  {/* Icon */}
-  <div className="absolute top-[23%] left-[15%] w-64 h-64 rounded-md flex justify-center items-center">
-    {/* Example SVG */}
-    
-  </div>
-
-  {/* Text */}
-  <div className="absolute bottom-[7%] left-1/2 -translate-x-1/2 text-center text-sky-500 text-lg sm:text-2xl md:text-3xl font-bold font-sans">
-    Outbreak of <br /> Cholera
-  </div>
-</button>
-
-
-
-{/* Multimedia button */}
-
-<button className="relative w-[90vw] max-w-[600px] aspect-[3/1] rounded-[251.5px] focus:outline-none active:scale-95 transition group">
-  {/* Outer Layer */}
-  <div className="absolute inset-x-[-2%] inset-y-[-10%] bg-white rounded-[251.5px] group-hover:bg-gray-100"></div>
-
-  {/* Middle Layer */}
-  <div className="absolute inset-x-[3.5%] inset-y-[3.5%] bg-amber-400 rounded-[251.5px] group-hover:bg-amber-300"></div>
-
-  {/* Inner Layer */}
-  <div className="absolute inset-x-[5.6%] inset-y-[8%] bg-sky-500 rounded-[251.5px] group-hover:bg-sky-600"></div>
-
-  {/* Text Content */}
-  <div className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm sm:text-lg md:text-3xl lg:text-6xl text-center px-4">
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 md:h-30 md:w-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-      </svg>
-    <span>Multimedia</span>
-   
-  </div>
-</button>
-
-
-
-  {/* Menstrual Hygiene */}
-  <button className="relative group focus:outline-none active:scale-95 transition w-[80vw] max-w-96 aspect-square m-4">
-    {/* Outer circle */}
-    <div className="absolute inset-0 bg-sky-200 rounded-full group-hover:bg-sky-300"></div>
-
-    {/* Inner circle */}
-    <div className="absolute inset-0 m-auto w-[90%] aspect-square bg-sky-500 rounded-full border-[6px] border-white group-hover:bg-sky-600 flex flex-col items-center justify-center text-white font-semibold space-y-2">
-    
-      {/* Text */}
-      <span className="text-xl md:text-4xl">Menstrual <br></br> Hygiene</span>
-    </div>
-  </button>
+
+
+
+
+
+
+
+
 
   {/* Measles */}
   <button className="relative group focus:outline-none active:scale-95 transition w-[80vw] max-w-96 aspect-square m-4">
